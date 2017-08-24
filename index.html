@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Electron media manager2 application</title>
+    <link rel="stylesheet" href="app.css">
+    <script>window.$ = window.jQuery = require('./js/jquery.js');</script>
+    <script src="app.js"></script>
+  
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">    
+    <meta name="description" content="How to use mediadevices in WebRTC style in Electron framework."/>
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <base target="_blank">
+  </head>
+
+  <body>
+    <div id="container">
+
+      <div class="select">
+        <label for="videoSource">Video source: </label><select id="videoSource"></select>
+      </div>
+
+      <div class="camera">
+        <video id="video" autoplay>Video stream not available.</video>
+        <button id="startbutton">Take photo</button>
+        <button id="camerabutton">Camera</button>
+      </div>
+
+      <canvas id="canvas"></canvas>
+      <div class="output">
+        <img id="photo" alt="The screen capture will appear in this box."> 
+        <button id="clearbutton">Clear</button>
+        <button id="downloadbutton">Download</button> 
+      </div>
+
+      <br/>
+      <br/>
+      <div>
+        <p>Sources on GitHub - <a target="_blank" href="https://github.com/Goga74/electron-media-manager2">https://github.com/Goga74/electron-media-manager2</a></p>
+        <p>Another version - <a target="_blank" href="https://github.com/Goga74/electron-media-manager">https://github.com/Goga74/electron-media-manager</a></p>
+      </div>
+    </div>
+
+  </body>
+</html>

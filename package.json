@@ -1,0 +1,26 @@
+{
+  "name": "electron-media-manager2",
+  "version": "1.0.0",
+  "description": "Example webcamera and audio devices with Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "package-win": "electron-packager . --overwrite --asar=true --platform=win32 --arch=ia32 --icon=assets/icons/win/icon.ico --prune=true -ignore=node_modules/\\.bin --out=release-builds --version-string.CompanyName=IgorZamiatin --version-string.FileDescription=IgorZamiatin --version-string.ProductName=\"electron-media-manager2\""
+  },
+  "author": "Igor Zamiatin",
+  "license": "CC0-1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Goga74/electron-media-manager2"
+  },
+  "dependencies": {
+    "electron": "^1.4.13",
+    "electron-packager": "^8.7.2",
+    "electron-prebuilt": "^1.4.13"
+  },
+  "devDependencies": {
+    "electron": "^1.4.13",
+    "electron-packager": "^8.7.2",
+    "electron-prebuilt": "^1.4.13"
+  }
+}
