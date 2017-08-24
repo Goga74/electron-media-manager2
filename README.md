@@ -1,4 +1,4 @@
-# electron-media-manager
+# electron-media-manager2
 
 **How to use mediadevices in WebRTC style in Electron framework.**
 
